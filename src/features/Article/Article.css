@@ -1,0 +1,61 @@
+body{
+    font-family: 'Righteous', cursive;
+}
+
+.article-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.article-container article {
+    background-color: white;
+    border-radius: 20px;
+    width: 800px;
+    height: 900px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.article-container article .postImg{
+    overflow: hidden;
+    height: 450px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.article-container article h3{
+    font-family: 'Righteous', cursive;
+    color: black;
+    font-size: 1.6rem;
+    width: 90%;
+    text-align: center;
+    display:inline-block;
+    padding-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: purple;
+    text-decoration-thickness: 4px;
+}
+
+.article-container article h4{
+    font-family: 'Righteous', cursive;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.article-container article .postInfo{
+    height: 100px;
+}
+
+.commentsLogo, .scoreLogo{
+    height: 50%;
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+}
+
+
+.commentsLogo:hover, .scoreLogo:hover {
+    opacity: 0.4;
+}
